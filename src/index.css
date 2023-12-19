@@ -25,32 +25,6 @@
   border: 1px solid rgb(35, 137, 177);
 }
 
-.recstopBtn{
-  width: 130px;
-  height: 48px;
-  background-color: #FFB500;
-  padding: 10px 15px;
-  color: black;
-  border-radius: 40px;
-  font-size: 16px;
-  font-weight: 600;
-  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
-  text-transform: capitalize;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.recstopBtnHide{
-  display: none;
-}
-
-.icon-size{
-  fill: black; 
-  width: 13.263px;
-height: 18px;
-flex-shrink: 0; 
-}
-
 
 @keyframes scale-div {
   to {

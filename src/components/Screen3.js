@@ -135,7 +135,7 @@ export default function Screen3() {
           if(recordRTC){
             recordRTC.destroy()
           }      
-        // navigate("/" + params.userId)
+        navigate("/" + params.userId )
       } 
 
     }
@@ -147,7 +147,7 @@ export default function Screen3() {
       if(recordRTC){
         recordRTC.destroy()
       }      
-      // navigate("/" + params.userId)
+      navigate("/" + params.userId)
     }
 
     // Set the browser name
@@ -732,23 +732,7 @@ export default function Screen3() {
                           </Box>
 
                           <Box sx={{padding: "0px 20px"}}>
-
-                            <button className={phraseList[i].recordButtonDisplay == "" ? "recstopBtn" : "recstopBtnHide"}  id={phraseList[i].box_no}
-                                onClick={(e) => handleRecordClick(e)}
-                              > 
-                              <MicNoneIcon className="icon-size" />
-                              Record
-                            </button>
-
-                            <button className={phraseList[i].stopButtonDisplay == "" ? "recstopBtn" : "recstopBtnHide"} id={phraseList[i].box_no}
-                                onClick={(e) => handleStopClick(e)}
-                                ref={stopRef}
-                              > 
-                              <CheckBoxOutlineBlankIcon className="icon-size" />
-                              Stop
-                            </button>
-
-                            {/* <BlueButton
+                            <BlueButton
                               id={phraseList[i].box_no}
                               onClick={(e) => handleRecordClick(e)}
                               sx={{
@@ -773,7 +757,7 @@ export default function Screen3() {
                               startIcon={<CheckBoxOutlineBlankIcon />}
                             >
                               Stop
-                            </BlueButton> */}
+                            </BlueButton>
                           </Box>
                         </Box>
                       </Paper>

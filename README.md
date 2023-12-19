@@ -5,7 +5,7 @@
 2. Create S3 bucket (Make it's objects publicly accessibly). 
 
 3. Enable Static website hosting option for this bucket. Refer below image:
- ![Static website hosting](img/static_website.png)
+ ![Static website hosting](readme_img/static_website.png)
 
 4. Upload the files/folders from /build content on this bucket. (make sure index.html file should be on root folder)
 
