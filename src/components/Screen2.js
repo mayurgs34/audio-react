@@ -61,7 +61,7 @@ export default function Screen2() {
     // if not present navigate to screen1 page    
     const check_session = localStorage.getItem('vct_session_id');
     if(check_session == null){
-      navigate("/" + params.userId)
+      // navigate("/" + params.userId)
     }
 
     // On Refresh navigate to screen1 
@@ -76,7 +76,7 @@ export default function Screen2() {
       if(s2Ref == 5){
           localStorage.clear()
           // console.log('This is a page refresh s2');    
-          navigate("/" + params.userId )
+          // navigate("/" + params.userId )
       }
     }
   }, []);
@@ -159,7 +159,7 @@ export default function Screen2() {
               const posts = response.data;
               localStorage.setItem("vct_phrase_list", JSON.stringify(posts.phrases));
               navigate("/" + params.userId + "/session");
-              window.location.reload()
+              // window.location.reload()
             })
             .catch(function (error) {
             console.log(error);

@@ -108,7 +108,7 @@ export default function Consent() {
         // Assign session id to user
         try {
           localStorage.setItem("vct_session_id", uuidv4());
-          localStorage.setItem("vct_campaign", params.userId);
+          localStorage.setItem("vct_campaign", "UK");
           localStorage.setItem("vct_curr_date", new Date().toLocaleDateString())
           localStorage.setItem("vct_curr_time", new Date().toLocaleTimeString())
     

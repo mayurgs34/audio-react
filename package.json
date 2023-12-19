@@ -1,6 +1,5 @@
 {
   "name": "base-ui-cra",
-  "homepage": "https://mayurgs34/audio-react",
   "version": "5.0.0",
   "private": true,
   "dependencies": {
@@ -36,9 +35,7 @@
     "build": "react-scripts build",
     "build:prod": "env-cmd -f .env.prod react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [

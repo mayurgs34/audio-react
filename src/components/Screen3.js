@@ -117,7 +117,7 @@ export default function Screen3() {
     }
   
     if (camp_val == "") {
-      navigate("/404");
+      // navigate("/404");
     }
 
     // On Refresh navigate to screen1 
@@ -135,7 +135,7 @@ export default function Screen3() {
           if(recordRTC){
             recordRTC.destroy()
           }      
-        navigate("/" + params.userId )
+        // navigate("/" + params.userId )
       } 
 
     }
@@ -147,7 +147,7 @@ export default function Screen3() {
       if(recordRTC){
         recordRTC.destroy()
       }      
-      navigate("/" + params.userId)
+      // navigate("/" + params.userId)
     }
 
     // Set the browser name
@@ -354,8 +354,25 @@ export default function Screen3() {
   };
 
   // start recording
-  const handleRecordClick = (e) => {
+  const handleRecordClick = async (e) => {
     // console.log(timerBtnClick)
+
+    // var params = { audio: true, video: false };
+    // await navigator.mediaDevices.getUserMedia(params).then(
+    //   (stream) => {
+    //     setStreamState(stream)
+    //     console.log('Got the stream - ', stream)
+    // const recorder = RecordRTC(stream, {
+    //   type: 'audio',
+    //   mimeType: 'audio/wav',
+    //   recorderType: RecordRTC.StereoAudioRecorder,
+    //   numberOfAudioChannels: 1,
+    //   //sampleRate: 44100
+    // })
+    // setRecordRTC(recorder);
+    //   }
+    // )
+
 
     if(recordRTC){
       recordRTC.reset()
