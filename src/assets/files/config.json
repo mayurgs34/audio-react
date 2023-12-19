@@ -1,0 +1,35 @@
+{
+    "UK" : {
+        "concent": "By sharing your voice samples, you're directly contributing to the improvement of products that will benefit thousands of healthcare workers. Your privacy is our utmost concern, and your data will only be used for product enhancement. Join us in this important mission and help healthcare professionals work more efficiently and effectively.",
+        "accent_list" : [
+            { "label": "US Accent" },
+            { "label": "British Accent" },
+            { "label": "Australian Accent" },
+            { "label": "New Zealand Accent" },
+            { "label": "Indian Accent" },
+            { "label": "Singaporean Accent" },
+            { "label": "Arabic Accent" },
+            { "label": "Filipino Accent" },
+            { "label": "Russian Accent" },
+            { "label": "Other Southeast Asian Accent" },
+            { "label": "European Accent" },
+            { "label": "Spanish Accent" },
+            { "label": "Irish Accent" },
+            { "label": "Latin American/Spanish Accent" },
+            { "label": "Other" }
+        ],
+        "campaign" : "UK",
+        "no_of_phrases": 50
+    },
+    "ASIA" : {
+        "concent": "Asia By sharing your voice samples, you're directly contributing to the improvement of products that will benefit thousands of healthcare workers. Your privacy is our utmost concern, and your data will only be used for product enhancement. Join us in this important mission and help healthcare professionals work more efficiently and effectively.",
+        "accent_list" : [
+            { "label": "Indian" },
+            { "label": "Chinese" },
+            { "label": "Korean" },
+            { "label": "Other" }
+        ],
+        "campaign" : "ASIA",
+        "no_of_phrases": 10
+    }
+}

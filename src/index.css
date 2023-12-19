@@ -1,0 +1,94 @@
+/*  
+  Node.js v18.18.0 npm 10.2.1
+  File: index.css
+  Author: Mayur Chavan (GSLab Pvt. Ltd. Pune)
+  Date: 2023-11-21 18:49:59
+  Functionality: Root Element stryker's audio data capturing tool application styling. 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+
+
+
+.recboxBtn{
+  width: 50%;
+  background: white;
+  outline: none;
+  padding: 10px 72px;
+  font-size: 16px;
+  color: rgb(35, 137, 177);
+  border: 1px solid rgb(35, 137, 177);
+}
+
+.recstopBtn{
+  width: 130px;
+  height: 48px;
+  background-color: #FFB500;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+  text-transform: capitalize;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.recstopBtnHide{
+  display: none;
+}
+
+.icon-size{
+  fill: black; 
+  width: 13.263px;
+height: 18px;
+flex-shrink: 0; 
+}
+
+
+@keyframes scale-div {
+  to {
+    transform: perspective(100px) scale(1.2,1.2) translateZ(5px) 
+  }
+
+	/* 0%		{text-shadow:  0 0 100px #df0d0d;}
+	5%		{text-shadow:  0 0 90px #df0d0d;} */
+	0%		{opacity: 1;}
+	10%		{opacity: 1;}
+	15%		{opacity: 0.78;}
+	/* 20%		{text-shadow:  0 0 0px #df0d0d;}
+	80%		{text-shadow:  0 0 0px #df0d0d;} */
+	85%		{opacity: 0.9 #bcdf0d;}
+	/* 95%		{text-shadow:  0 0 90px #df0d0d;}
+	100%	{text-shadow:  0 0 100px #df0d0d;}  */
+
+}
+
+#progressimg {
+  animation: scale-div 0.5s infinite linear alternate;
+}
+
+.buttons1223{
+  float: left; padding: 30px; width: 100%;
+}
+
+.buttons1223count{
+  float:left;
+}
+
+html {
+  --progress: 0%;
+  --color:#FFB500;
+}
+/* .progressimg1{float: left} */
+.barWrapper{background-color: #ededed;width:1230px;height:30px;}
+.barValue{height:100%;width:var(--progress);background-color:var(--color);}
+
+.mbarWrapper{background-color: #ededed;width:306px;height:8px;}
+.mbarValue{height:100%;width:var(--progress);background-color:var(--color);}
