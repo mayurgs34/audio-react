@@ -210,6 +210,22 @@ export default function Screen3() {
       console.error("An error occurred:", err);
     }
 
+
+    if (window !== undefined) {
+      // browser code
+      navigator.mediaDevices
+      .getUserMedia({ video: false, audio: true })
+      .then((stream) => {
+        window.localStream = stream; // A
+        window.localAudio.srcObject = stream; // B
+        window.localAudio.autoplay = true; // C
+      })
+      .catch((err) => {
+        console.error(`you got an error: ${err}`);
+      });
+    }
+    
+
     // Get no_of_phrases from local storage
     // Set thank you button position  
     setthankyouBtnPos(parseInt(localStorage.getItem("no_of_phrases")))
