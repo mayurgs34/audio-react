@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/audio-react/static/css/main.606d2445.css",
-    "main.js": "/audio-react/static/js/main.ec26ac46.js",
+    "main.js": "/audio-react/static/js/main.0164ac8c.js",
     "index.html": "/audio-react/index.html",
     "main.606d2445.css.map": "/audio-react/static/css/main.606d2445.css.map",
-    "main.ec26ac46.js.map": "/audio-react/static/js/main.ec26ac46.js.map"
+    "main.0164ac8c.js.map": "/audio-react/static/js/main.0164ac8c.js.map"
   },
   "entrypoints": [
     "static/css/main.606d2445.css",
-    "static/js/main.ec26ac46.js"
+    "static/js/main.0164ac8c.js"
   ]
 }
